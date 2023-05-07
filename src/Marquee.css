@@ -1,0 +1,27 @@
+
+.marquee {
+  white-space: nowrap;
+  overflow: hidden;
+}
+.backwardmarquee {
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+.marquee .forward {
+  display: inline-block;
+  animation: marquee 20s linear infinite;
+}
+.backwardmarquee .backward {
+    display: inline-block;
+    animation: backwardmarquee 20s linear infinite;
+  }
+@keyframes marquee {
+  0% { transform: translateX(30%); }
+  100% { transform: translateX(-100%); }
+}
+@keyframes backwardmarquee {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(30%); }
+  }
+  
