@@ -10,11 +10,11 @@
   
 .marquee .forward {
   display: inline-block;
-  animation: marquee 20s linear infinite;
+  animation: marquee 10s linear infinite;
 }
 .backwardmarquee .backward {
     display: inline-block;
-    animation: backwardmarquee 20s linear infinite;
+    animation: backwardmarquee 10s linear infinite;
   }
 @keyframes marquee {
   0% { transform: translateX(30%); }

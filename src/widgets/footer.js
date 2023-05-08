@@ -60,10 +60,18 @@ const Footer = () => {
                 </Col>
                 <Col  md={4}>
                 <Stack className='d-flex justify-content-center' direction='horizontal'>
+                <a  target='_blank' href='https://www.instagram.com/johnvchuma/'>
                 <FaInstagram className='mx-2'  size={20} style={{color:"white"}}/>
-                <FaTwitter  className='mx-2' size={20} style={{color:"white"}}/>
+                </a>
+                <a target='_blank'  href='https://twitter.com/johnvchuma'>
+                <FaTwitter  className='mx-2' size={20} style={{color:"white"}}/>    
+                  </a>
+                  <a target='_blank'  href='https://web.facebook.com/?_rdc=1&_rdr'>
                 <FaFacebook className='mx-2'  size={20} style={{color:"white"}}/>
-                <FaLinkedin className='mx-2'  size={20} style={{color:"white"}}/>
+                  </a>
+                  <a  target='_blank' href='https://www.linkedin.com/in/john-chuma-534226266/'>
+                <FaLinkedin className='mx-2'  size={20} style={{color:"white"}}/>  
+                  </a>
                 </Stack>
                 </Col>
                 <Col md={4}>
